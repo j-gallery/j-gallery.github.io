@@ -1,38 +1,135 @@
-.App {
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100;300&family=Playfair+Display:ital,wght@0,400;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,400;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,700;1,900&display=swap');
+/* FOR FADE */
+.fadein {
+  opacity: 0;
+  -moz-transition: opacity 1.5s;
+  -webkit-transition: opacity 1.5s;
+  -o-transition: opacity 1.5s;
+  transition: opacity 1.5s;
+}
+
+body.loaded .fadein {
+  opacity: 1;
+}
+
+
+body {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+hr {
+  border-top: 3px double #bbb;
+  margin: 5px;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+
+
+
+body {
+  margin: 0 6% 0 6%;
+}
+
+#header {
   text-align: center;
+  top: -20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 120%;
+  display:inline-block; 
+  width:200px; 
+  height:50px; 
+  line-height:40px; 
+  border: none;
+  margin:15px auto; 
+  background-color: transparent; 
+  text-align:center; 
+  cursor: pointer;
+  color:#333; transition:all 0.5s, color 0.3s;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+#button1:hover{
+  color:#fff;
+  box-shadow:200px 0 0 0 rgba(255, 223, 39, 0.808) inset;
+/* 출처: https://stories.tistory.com/176 [나만모르는 이야기] */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#button2:hover{
+  color:#fff;
+  box-shadow:200px 0 0 0 rgba(22, 94, 52, 0.808) inset;
+/* 출처: https://stories.tistory.com/176 [나만모르는 이야기] */
 }
 
-.App-link {
-  color: #61dafb;
+#button3:hover{
+  color:#fff;
+  box-shadow:200px 0 0 0 rgba(68, 17, 134, 0.808) inset;
+/* 출처: https://stories.tistory.com/176 [나만모르는 이야기] */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#button4:hover{
+  color:#fff;
+  box-shadow:200px 0 0 0 rgba(167, 22, 94, 0.808) inset;
+/* 출처: https://stories.tistory.com/176 [나만모르는 이야기] */
+}
+
+/*  */
+
+#landing {
+  font-family: 'Playfair Display', serif;
+  font-size: 400%;
+
+  /* no drag */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+}
+strong {
+  font-family: 'Source Serif Pro', serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 150%;
+  font-style: italic;
+}
+
+#landing_left {
+  margin-bottom: 0;
+  margin-left: 15%;
+}
+#landing_right {
+    margin-top: 0;
+    text-align: right;
+    margin-right: 15%;
+    font-size: 130%;
+    /* font-weight: 500; */
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+
+
+p.about {
+  font-family: 'Times New Roman', Times, serif;
 }
