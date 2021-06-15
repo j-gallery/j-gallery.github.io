@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/j-gallery/j-gallery.github.io.git/static/css/main.5fd4bcc8.chunk.css",
+    "main.js": "/j-gallery/j-gallery.github.io.git/static/js/main.a42df48d.chunk.js",
+    "main.js.map": "/j-gallery/j-gallery.github.io.git/static/js/main.a42df48d.chunk.js.map",
+    "runtime-main.js": "/j-gallery/j-gallery.github.io.git/static/js/runtime-main.8df7386f.js",
+    "runtime-main.js.map": "/j-gallery/j-gallery.github.io.git/static/js/runtime-main.8df7386f.js.map",
+    "static/js/2.45b8b520.chunk.js": "/j-gallery/j-gallery.github.io.git/static/js/2.45b8b520.chunk.js",
+    "static/js/2.45b8b520.chunk.js.map": "/j-gallery/j-gallery.github.io.git/static/js/2.45b8b520.chunk.js.map",
+    "static/js/3.75ad3ecc.chunk.js": "/j-gallery/j-gallery.github.io.git/static/js/3.75ad3ecc.chunk.js",
+    "static/js/3.75ad3ecc.chunk.js.map": "/j-gallery/j-gallery.github.io.git/static/js/3.75ad3ecc.chunk.js.map",
+    "index.html": "/j-gallery/j-gallery.github.io.git/index.html",
+    "static/css/main.5fd4bcc8.chunk.css.map": "/j-gallery/j-gallery.github.io.git/static/css/main.5fd4bcc8.chunk.css.map",
+    "static/js/2.45b8b520.chunk.js.LICENSE.txt": "/j-gallery/j-gallery.github.io.git/static/js/2.45b8b520.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8df7386f.js",
+    "static/js/2.45b8b520.chunk.js",
+    "static/css/main.5fd4bcc8.chunk.css",
+    "static/js/main.a42df48d.chunk.js"
+  ]
+}
